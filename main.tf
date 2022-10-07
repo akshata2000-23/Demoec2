@@ -21,9 +21,9 @@ instance_type = "t2.micro"
    }
  }
 #creating s3 bucket
-resource "aws_s3_bucket231112311" "b" {
-  bucket = "my-tf-test-bucket"
-  acl    = "private"
+resource "aws_s3_bucket" "bucket" {
+  bucket = "akshata-bucket2311"
+  #acl    = "private"
     tags = {
      Name = "Akshata-s3"
    }
